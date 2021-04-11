@@ -7,11 +7,11 @@ on:
     types: [started]
     
 env:              
-  ROM_URL: https://dl.google.com/developers/android/sc/images/ota/redfin-ota-spp2.210219.008-3d61e529.zip
-  ZIP_NAME: test.zip
-  OS_TYPE: Pixel
-  BUILD_TYPE: 'ab'
-  REPACK_NAME: test_action.zip
+  ROM_URL: https://hugeota.d.miui.com/20.6.18/miui_MI6_20.6.18_3f5b90d469_9.0.zip
+  ZIP_NAME: lwz定制gsi.zip
+  OS_TYPE: MIUI
+  BUILD_TYPE: 'a-only'
+  REPACK_NAME: lwz私人定制.zip
   VERSION: 12
   upload_WeTransfer: 'true'
   upload_action-gh-release: 'false'
